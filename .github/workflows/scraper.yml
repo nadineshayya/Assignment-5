@@ -1,5 +1,6 @@
 name: Scraping Every 3 Hours
-
+permissions:
+  contents: write 
 on:
   schedule:
     - cron: '0 */3 * * *'  # Runs every 3 hours
